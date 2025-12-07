@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG Solar</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- NAVEGADOR-->
+    <header class="nav">
+        <div class="nav-left">
+            <span class="logo-dot"></span>
+            <span class="logo-text">LG Solar</span>
+            <span class="slogan">Mejora el medio ambiente</span>
+        </div>
+
+        <nav class="nav-menu">
+            <a href="#">Por qué LG Solar</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Son tiempos<br>de cambio</h1>
+
+            <p>
+                Genera y almacena tu propia energía. Empieza a ahorrar ya con energía 
+                limpia y ecológica.
+            </p>
+
+            <a href="#" class="btn-hero">Ver cómo</a>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="form-section">
+        <div class="form-container">
+
+            <h2>¡Obtén hoy un estimado sin compromiso!</h2>
+
+            <form id="formulario">
+                <div class="form-row">
+
+                    <div class="form-field">
+                        <label>Nombre *</label>
+                        <input type="text" id="nombre">
+                    </div>
+
+                    <div class="form-field">
+                        <label>Apellido *</label>
+                        <input type="text" id="apellido">
+                    </div>
+
+                    <div class="form-field">
+                        <label>Email *</label>
+                        <input type="email" id="email">
+                    </div>
+
+                    <div class="form-field">
+                        <label>Teléfono *</label>
+                        <input type="text" id="telefono">
+                    </div>
+
+                    <div class="form-field">
+                        <label>Dirección</label>
+                        <input type="text" id="direccion">
+                    </div>
+                </div>
+
+                <div class="check-group">
+                    <label><input type="checkbox" id="propietario"> Propietario</label>
+                    <label><input type="checkbox" id="empresario"> Empresario</label>
+                </div>
+
+                <button type="submit" class="btn-send">Enviar</button>
+
+                <div id="mensaje-exito" class="mensaje-exito">Registro exitoso ✔</div>
+
+            </form>
+
+        </div>
+    </section>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
+
